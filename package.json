@@ -1,0 +1,38 @@
+{
+  "name": "app",
+  "version": "0.0.1",
+  "description": "Boilerplate for Three + Browserify",
+  "main": "index.js",
+  "repository": "",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp",
+    "build:dev": "gulp dev",
+    "build:prod": "gulp prod",
+    "prepublish": "npm run build:prod"
+  },
+  "devDependencies": {
+    "del": "latest",
+    "gulp": "latest",
+    "gulp-babel": "latest",
+    "babel-preset-es2016": "latest",
+    "browserify": "latest",
+    "babelify": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-connect": "latest",
+    "gulp-load-plugins": "latest",
+    "gulp-minify-css": "latest",
+    "gulp-rename": "latest",
+    "gulp-replace": "latest",
+    "gulp-sass": "latest",
+    "gulp-shell": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-uglify": "latest",
+    "gulp-livereload": "latest",
+    "gulp-util": "latest",
+    "gulp-tap": "latest"
+  },
+  "dependencies": {
+
+  }
+}
